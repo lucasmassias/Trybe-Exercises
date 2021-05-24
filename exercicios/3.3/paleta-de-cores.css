@@ -1,0 +1,26 @@
+div:hover {
+    border-style: solid;
+    border-width: auto;
+    border-color: olive;
+    padding: 0;
+}
+.primaria {
+    background-color: yellow;
+}
+.secundaria {
+    background-color: purple;
+}
+.complementar {
+    background-color: violet;
+}
+.escuro {
+    background-color: black;
+    color: blanchedalmond;
+}
+.claro {
+    background-color: gray;
+}
+#width-height {
+    width: 120px;
+    height: 120px;
+}
