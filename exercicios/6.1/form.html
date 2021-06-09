@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get">
+    <fieldset>
+        <label for="nameInput">Nome</label>
+        <input type="text" name="name" id="nameInput" maxlength="40" required><br>
+        <label for="emailInput">Email</label>
+        <input type="email" name="email" id="emailInput" maxlength="50" required><br>
+        <label for="cpfInput">CPF</label>
+        <input type="text" name="cpf" id="cpfInput" maxlength="11" required><br>
+        <label for="endInput">Endereço</label>
+        <input type="text" name="end" id="endInput"maxlength="200" required><br>
+        <label for="estadosInput">Estados</label>
+        <select name="estados" id="estadosInput" required>
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="mg">MG</option>
+            <option value="pr">PR</option>
+        </select><br>
+        <label for="houseInput aptInput" aria-required="true">Logradouto:</label>
+        <label for="houseInput">Casa</label>
+        <input type="radio" name="lograd" id="houseInput"> 
+        <label for="aptInput">Apartamento</label>
+        <input type="radio" name="lograd" id="aptInput">     
+    </fieldset> 
+    <fieldset>
+        <label for="cvInput">Resumo do Currículo</label><br>
+        <textarea name="curricullo" id="cvInput" maxlength="1000" required></textarea><br>
+        <label for="cargoInput">Cargo</label><br>
+        <input type="text" name="cargo" id="cargoInput" maxlength="40" required><br>
+        <label for="descCargo">Descrição do cargo</label><br>
+        <input type="text" name="descCargo" id="descCargo" maxlength="500" required><br>
+        <label for="dataInput">Data de Inicio</label><br>
+        <input type="date" id="dataInput"><br>
+    </fieldset>
+</form>
+<button type="submit"> submit</button>
+</body>
+</html>

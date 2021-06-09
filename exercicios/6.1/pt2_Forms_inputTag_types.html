@@ -7,13 +7,28 @@
     <title>pt2_Forms_inputTag_types</title>
 </head>
 <body>
-    <form action="" method="GET"></form>
-    <label for="email">Email:</label><br>
-    <input type="email" placeholder="Digite seu e-mail" name="email" required autocomplete="off" autofocus><br>
-    <label for="password">Senha:</label><br>
-    <input type="password" placeholder="Senha" name="password" required><br>
-    <input type="checkbox">Lembre-me <br>
-    <button>Entrar</button>
+    <form action="" method="GET">
+        <label for="input-email">Email:
+            <input type="email" placeholder="Digite seu e-mail" name="email" id="input-email" required autocomplete="off" autofocus>
+        </label><br>
 
+        <label for="input-senha">Senha:
+            <input type="password" placeholder="Senha" name="password" id="input-senha" required>
+        </label><br>
+
+    <input type="checkbox">Lembre-me <br>
+
+    <button>Entrar</button><br>
+
+    <label for="input-estados">Seu estado
+        <select name="estados" id="input-estados">
+            <option value="SP">SP</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+            <option value="PR">PR</option>
+            <option value="ES">ES</option>
+        </select>
+    </label>
+    </form>
 </body>
 </html>
